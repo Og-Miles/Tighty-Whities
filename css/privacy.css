@@ -1,0 +1,25 @@
+section{
+    margin: 0 auto;
+    text-align: justify;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80%;
+
+}
+button a{
+    color: white;
+}
+button a:hover{
+    color: white;
+}
+
+@media screen and (max-width:750px) {
+    h1{
+        width: 50%;
+        font-weight: 600;
+    }
+
+    button{
+        background-color: black;
+    }
+}
